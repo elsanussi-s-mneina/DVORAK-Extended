@@ -30,7 +30,7 @@ For more information, please refer to <http://unlicense.org>
 -->
 
 <keyboard group="126" id="-693" name="Dvorak - Extended">
-	<!-- Version v0.08 -->
+	<!-- Version v0.09 -->
 	<layouts>
 		<layout first="0" last="0" modifiers="commonModifiers" mapSet="mapSet"/>
 	</layouts>
@@ -131,6 +131,7 @@ For more information, please refer to <http://unlicense.org>
 					<when state="dotBelowAccent" output="ỵ"/>
 					<when state="tildeAccent" output="ỹ"/>
 					<when state="miscLevel" output="ȝ"/>
+					<when state="glottalStopAccent" output="ƴ"/>
 				</action>
 			</key>
 
@@ -138,6 +139,7 @@ For more information, please refer to <http://unlicense.org>
 				<action>
 					<when state="none" output="f"/>
 					<when state="dotAboveAccent" output="ḟ"/>
+					<when state="glottalStopAccent" output="ƒ"/>
 				</action>
 			</key>
 
@@ -152,6 +154,7 @@ For more information, please refer to <http://unlicense.org>
 					<when state="caronAccent" output="ǧ"/>
 					<when state="breveAccent" output="ğ"/>
 					<when state="miscLevel" output="ɣ"/>
+					<when state="glottalStopAccent" output="ɠ"/>
 				</action>
 			</key>
 
@@ -163,6 +166,7 @@ For more information, please refer to <http://unlicense.org>
 					<when state="cedillaAccent" output="ç"/>
 					<when state="caronAccent" output="č"/>
 					<when state="miscLevel" output="ɔ"/>
+					<when state="glottalStopAccent" output="ƈ"/>
 				</action>
 			</key>
 
@@ -178,6 +182,7 @@ For more information, please refer to <http://unlicense.org>
 					<when state="caronAccent" output="ř"/>
 					<when state="doubleGraveAccent" output="ȑ"/>
 					<when state="invertedBreveAccent" output="ȓ"/>
+					<when state="glottalStopAccent" output="ʈ"/>
 				</action>
 			</key>
 			<key code="35">
@@ -330,6 +335,7 @@ For more information, please refer to <http://unlicense.org>
 					<when state="cedillaAccent" output="ḑ"/>
 					<when state="caronAccent" output="ď"/>
 					<when state="circumflexBelowAccent" output="ḓ"/>
+					<when state="glottalStopAccent" output="ɗ"/>
 				</action>
 			</key>
 
@@ -345,6 +351,7 @@ For more information, please refer to <http://unlicense.org>
 					<when state="caronAccent" output="ȟ"/>
 					<when state="breveAccent" output="ḫ"/>
 					<when state="miscLevel" output="ƕ"/>
+					<when state="glottalStopAccent" output="ɦ"/>
 				</action>
 			</key>
 
@@ -358,7 +365,8 @@ For more information, please refer to <http://unlicense.org>
 					<when state="dotBelowAccent" output="ṭ"/>
 					<when state="cedillaAccent" output="ţ"/>
 					<when state="caronAccent" output="ť"/>
-					<when state="circumflexBelowAccent" output="Ṱ"/>
+					<when state="circumflexBelowAccent" output="ṱ"/>
+					<when state="glottalStopAccent" output="ƭ"/>
 				</action>
 			</key>
 
@@ -376,6 +384,7 @@ For more information, please refer to <http://unlicense.org>
 					<when state="tildeAccent" output="ñ"/>
 					<when state="circumflexBelowAccent" output="ṋ"/>
 					<when state="miscLevel" output="ŋ"/>
+					<when state="glottalStopAccent" output="ɲ"/>
 				</action>
 			</key>
 
@@ -389,6 +398,7 @@ For more information, please refer to <http://unlicense.org>
 					<when state="cedillaAccent" output="ş"/>
 					<when state="caronAccent" output="š"/>
 					<when state="miscLevel" output="ſ"/>
+					<when state="glottalStopAccent" output="ʃ"/>
 				</action>
 			</key>
 
@@ -421,6 +431,7 @@ For more information, please refer to <http://unlicense.org>
 					<when state="cedillaAccent" output="ķ"/>
 					<when state="caronAccent" output="ǩ"/>
 					<when state="miscLevel" output="ĸ"/>
+					<when state="glottalStopAccent" output="ƙ"/>
 				</action>
 			</key>
 
@@ -430,6 +441,7 @@ For more information, please refer to <http://unlicense.org>
 					<when state="dotAboveAccent" output="ẋ"/>
 					<when state="diaeresisAccent" output="ẍ"/>
 					<when state="caronAccent" output="ǯ"/>
+					<when state="glottalStopAccent" output="ɖ"/>
 				</action>
 			</key>
 			<key code="45">
@@ -439,6 +451,7 @@ For more information, please refer to <http://unlicense.org>
 					<when state="lowMacronAccent" output="ḇ"/>
 					<when state="strokeAccent" output="ƀ"/>
 					<when state="dotBelowAccent" output="ḅ"/>
+					<when state="glottalStopAccent" output="ɓ"/>
 				</action>
 			</key>
 			<key code="46">
@@ -488,6 +501,7 @@ For more information, please refer to <http://unlicense.org>
 					<when state="cedillaAccent" output="z̧"/>
 					<when state="caronAccent" output="ž"/>
 					<when state="miscLevel" output="ʒ"/>
+					<when state="glottalStopAccent" output="ȥ"/>
 				</action>
 			</key>
 		</keyMap>
@@ -562,6 +576,7 @@ For more information, please refer to <http://unlicense.org>
 					<when state="dotBelowAccent" output="Ỵ"/>
 					<when state="tildeAccent" output="Ỹ"/>
 					<when state="miscLevel" output="Ȝ"/>
+					<when state="glottalStopAccent" output="Ƴ"/>
 				</action>
 			</key>
 
@@ -569,6 +584,7 @@ For more information, please refer to <http://unlicense.org>
 				<action>
 					<when state="none" output="F"/>
 					<when state="dotAboveAccent" output="Ḟ"/>
+					<when state="glottalStopAccent" output="Ƒ"/>
 				</action>
 			</key>
 
@@ -583,6 +599,7 @@ For more information, please refer to <http://unlicense.org>
 					<when state="caronAccent" output="Ǧ"/>
 					<when state="breveAccent" output="Ğ"/>
 					<when state="miscLevel" output="Ɣ"/>
+					<when state="glottalStopAccent" output="Ɠ"/>
 				</action>
 			</key>
 
@@ -594,6 +611,7 @@ For more information, please refer to <http://unlicense.org>
 					<when state="cedillaAccent" output="Ç"/>
 					<when state="caronAccent" output="Č"/>
 					<when state="miscLevel" output="Ɔ"/>
+					<when state="glottalStopAccent" output="Ƈ"/>
 				</action>
 			</key>
 
@@ -609,6 +627,7 @@ For more information, please refer to <http://unlicense.org>
 					<when state="caronAccent" output="Ř"/>
 					<when state="doubleGraveAccent" output="Ȑ"/>
 					<when state="invertedBreveAccent" output="Ȓ"/>
+					<when state="glottalStopAccent" output="Ʈ"/>
 				</action>
 			</key>
 
@@ -758,6 +777,7 @@ For more information, please refer to <http://unlicense.org>
 					<when state="cedillaAccent" output="Ḑ"/>
 					<when state="caronAccent" output="Ď"/>
 					<when state="circumflexBelowAccent" output="Ḓ"/>
+					<when state="glottalStopAccent" output="Ɗ"/>
 				</action>
 			</key>
 
@@ -786,6 +806,7 @@ For more information, please refer to <http://unlicense.org>
 					<when state="cedillaAccent" output="Ţ"/>
 					<when state="caronAccent" output="Ť"/>
 					<when state="circumflexBelowAccent" output="Ṱ"/>
+					<when state="glottalStopAccent" output="Ƭ"/>
 				</action>
 			</key>
 
@@ -802,6 +823,7 @@ For more information, please refer to <http://unlicense.org>
 					<when state="tildeAccent" output="Ñ"/>
 					<when state="circumflexBelowAccent" output="Ṋ"/>
 					<when state="miscLevel" output="Ŋ"/>
+					<when state="glottalStopAccent" output="Ɲ"/>
 				</action>
 			</key>
 			<key code="41">
@@ -813,6 +835,7 @@ For more information, please refer to <http://unlicense.org>
 					<when state="dotBelowAccent" output="Ṣ"/>
 					<when state="cedillaAccent" output="Ş"/>
 					<when state="caronAccent" output="Š"/>
+					<when state="glottalStopAccent" output="Ʃ"/>
 				</action>
 			</key>
 			<key code="39">
@@ -843,6 +866,7 @@ For more information, please refer to <http://unlicense.org>
 					<when state="cedillaAccent" output="Ķ"/>
 					<when state="caronAccent" output="Ǩ"/>
 					<when state="miscLevel" output="K’"/>
+					<when state="glottalStopAccent" output="Ƙ"/>
 				</action>
 			</key>
 
@@ -852,6 +876,7 @@ For more information, please refer to <http://unlicense.org>
 					<when state="dotAboveAccent" output="Ẋ"/>
 					<when state="diaeresisAccent" output="Ẍ"/>
 					<when state="caronAccent" output="Ǯ"/>
+					<when state="glottalStopAccent" output="Ɖ"/>
 				</action>
 			</key>
 			<key code="45">
@@ -860,6 +885,7 @@ For more information, please refer to <http://unlicense.org>
 					<when state="dotAboveAccent" output="Ḃ"/>
 					<when state="lowMacronAccent" output="Ḇ"/>
 					<when state="dotBelowAccent" output="Ḅ"/>
+					<when state="glottalStopAccent" output="Ɓ"/>
 				</action>
 			</key>
 			<key code="46">
@@ -907,6 +933,7 @@ For more information, please refer to <http://unlicense.org>
 					<when state="cedillaAccent" output="Z̧"/>
 					<when state="caronAccent" output="Ž"/>
 					<when state="miscLevel" output="Ʒ"/>
+					<when state="glottalStopAccent" output="Ȥ"/>
 				</action>
 			</key>
 		</keyMap>
@@ -1006,12 +1033,39 @@ For more information, please refer to <http://unlicense.org>
 			<key code="124" output="&#x001D;"/>
 		</keyMap>
 		<keyMap index="4">
-			<!-- Number row above -->
+			<!-- Number row above
+
+1 ¡
+2 ™
+3 £
+4 ¢
+5 §
+7 ¶
+8 •
+9 ª
+0 º
+- –
+= ≠
+ -->
 			<key code="50" action="grave"/>
+
+
 
 			<key code="22" action="circumflex"/>
 
 			<!-- Top row above-->
+			<!-- 
+q œ
+r ®
+t þ
+y ¥
+o ø
+[ “
+] ‘
+\ «
+
+			-->
+
 			<key code="13" action="dotAbove"/>
 			<key code="14" action="acute"/>
 			<key code="32" action="diaeresis"/>
@@ -1022,7 +1076,18 @@ For more information, please refer to <http://unlicense.org>
 			<key code="30" action="98"/>
 -->
 
-			<!-- Middle row -->
+			<!-- Middle row
+
+s ß
+d ð
+f ƒ
+g ©
+; …
+' æ
+, ≤
+. ≥
+/ ÷
+ -->
 			<key code="0" action="macron"/>
 			<key code="4" action="lowMacron"/>
 			<key code="38" action="doubleAcute"/>
