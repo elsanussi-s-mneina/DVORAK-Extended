@@ -29,7 +29,7 @@ For more information, please refer to <http://unlicense.org>
 
 -->
 
-<keyboard group="126" id="-693" name="DVORAK-extendedv0.01k">
+<keyboard group="126" id="-693" name="DVORAK-extendedv0.02">
 	<layouts>
 		<layout first="0" last="0" modifiers="commonModifiers" mapSet="mapSet"/>
 	</layouts>
@@ -149,7 +149,19 @@ For more information, please refer to <http://unlicense.org>
 			<key code="11" output="x"/>
 			<key code="45" output="b"/>
 			<key code="46" output="m"/>
-			<key code="43" output="w"/>
+			<key code="43">
+				<action>
+					<when state="none" output="w"/>
+					<when state="graveAccent" output="ẁ"/>
+					<when state="circumflexAccent" output="ŵ"/>
+					<when state="dotAboveAccent" output="ẇ"/>
+					<when state="acuteAccent" output="ẃ"/>
+					<when state="diaeresisAccent" output="ẅ"/>
+					<when state="ringAccent" output="ẘ"/>
+					<when state="dotBelowAccent" output="ẉ"/>
+					<when state="miscLevel" output="ƿ"/>
+				</action>
+			</key>
 			<key code="47" output="v"/>
 			<key code="44" output="z"/>
 		</keyMap>
