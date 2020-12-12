@@ -103,7 +103,7 @@ For more information, please refer to <http://unlicense.org>
 					<when state="doubleGraveAccent" output="ȁ"/>
 					<when state="invertedBreveAccent" output="ȃ"/>
 					<when state="miscLevel" output="ə"/>
-				</action> 
+				</action>
 			</key>
 			<key code="1">
 				<action>
@@ -186,8 +186,50 @@ For more information, please refer to <http://unlicense.org>
 			<key code="42" output="|"/>
 
 		<!-- Third row from top, from left to right -->
-			<key code="0" output="A"/>
-			<key code="1" output="O"/>
+			<key code="0">
+				<action>
+					<when state="none" output="A"/>
+					<when state="graveAccent" output="À"/>
+					<when state="circumflexAccent" output="Â"/>
+					<when state="dotAboveAccent" output="Ȧ"/>
+					<when state="acuteAccent" output="Á"/>
+					<when state="diaeresisAccent" output="Ä"/>
+					<when state="macronAccent" output="Ā"/>
+					<when state="ringAccent" output="Å"/>
+					<when state="hookAccent" output="Ả"/>
+					<when state="dotBelowAccent" output="Ạ"/>
+					<when state="caronAccent" output="Ǎ"/>
+					<when state="breveAccent" output="Ă"/>
+					<when state="tildeAccent" output="Ã"/>
+					<when state="ogonekAccent" output="Ą"/>
+					<when state="doubleGraveAccent" output="Ȁ"/>
+					<when state="invertedBreveAccent" output="Ȃ"/>
+					<when state="miscLevel" output="Ə"/>
+				</action>
+			</key>
+			<key code="1">
+				<action>
+					<when state="none" output="O"/>
+					<when state="graveAccent" output="Ò"/>
+					<when state="circumflexAccent" output="Ô"/>
+					<when state="dotAboveAccent" output="Ȯ"/>
+					<when state="acuteAccent" output="Ó"/>
+					<when state="diaeresisAccent" output="Ö"/>
+					<when state="macronAccent" output="Ō"/>
+					<when state="doubleAcuteAccent" output="Ő"/>
+					<when state="ringAccent" output="O̊"/>
+					<when state="strokeAccent" output="Ɵ"/>
+					<when state="hookAccent" output="Ỏ"/>
+					<when state="dotBelowAccent" output="Ọ"/>
+					<when state="caronAccent" output="Ǒ"/>
+
+					<when state="breveAccent" output="Ŏ"/>
+					<when state="tildeAccent" output="Õ"/>
+					<when state="ogonekAccent" output="Ǫ"/>
+					<when state="doubleGraveAccent" output="Ȍ"/>
+					<when state="invertedBreveAccent" output="Ȏ"/>
+				</action> 
+			</key>
 			<key code="2" output="E"/>
 			<key code="3" output="U"/>
 			<key code="5" output="I"/>
@@ -346,26 +388,6 @@ For more information, please refer to <http://unlicense.org>
 			<key code="30" action="98"/>
 -->
 
-<!--
-grave
-circumflex
-dotAbove
-acute
-diaeresis
-apostrophe
-comma
-doubleAcute
-macron
-lowMacron
-ring
-hook
-dotBelow
-cedilla
-caron
-breve
-tilde
-ogonek
--->
 			<!-- Middle row -->
 			<key code="0" action="macron"/>
 			<key code="4" action="lowMacron"/>
