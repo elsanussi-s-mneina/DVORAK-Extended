@@ -29,7 +29,7 @@ For more information, please refer to <http://unlicense.org>
 
 -->
 
-<keyboard group="126" id="-693" name="DVORAK-extendedv0.06">
+<keyboard group="126" id="-693" name="DVORAK-extendedv0.07">
 	<layouts>
 		<layout first="0" last="0" modifiers="commonModifiers" mapSet="mapSet"/>
 	</layouts>
@@ -80,11 +80,41 @@ For more information, please refer to <http://unlicense.org>
 				</action>
 			</key>
 
-			<key code="17" output="y"/>
-			<key code="16" output="f"/>
-			<key code="32" output="g"/>
-			<key code="34" output="c"/>
-			<key code="31" output="r"/>
+			<key code="17">
+				<action>
+					<when state="none" output="y"/>
+					<when state="graveAccent" output="ỳ"/>
+					<when state="dotAboveAccent" output="ẏ"/>
+				</action>
+			</key>
+
+			<key code="16">
+				<action>
+					<when state="none" output="f"/>
+					<when state="dotAboveAccent" output="ḟ"/>
+				</action>
+			</key>
+
+			<key code="32">
+				<action>
+					<when state="none" output="g"/>
+					<when state="dotAboveAccent" output="ġ"/>
+				</action>
+			</key>
+
+			<key code="34">
+				<action>
+					<when state="none" output="c"/>
+					<when state="dotAboveAccent" output="ċ"/>
+				</action>
+			</key>
+
+			<key code="31">
+				<action>
+					<when state="none" output="r"/>
+					<when state="dotAboveAccent" output="ṙ"/>
+				</action>
+			</key>
 			<key code="35" output="l"/>
 			<key code="33" output="/"/>
 			<key code="30" output="="/>
@@ -195,7 +225,7 @@ For more information, please refer to <http://unlicense.org>
 					<when state="none" output="i"/>
 					<when state="graveAccent" output="ì"/>
 					<when state="circumflexAccent" output="î"/>
-					<when state="dotAbove" output="ı"/>
+					<when state="dotAboveAccent" output="ı"/>
 					<when state="acuteAccent" output="í"/>
 					<when state="diaeresisAccent" output="ï"/>
 					<when state="macronAccent" output="ī"/>
@@ -212,11 +242,44 @@ For more information, please refer to <http://unlicense.org>
 					<when state="glottalStopAccent" output="ɩ"/>
 				</action> 
 			</key>
-			<key code="4" output="d"/>
-			<key code="38" output="h"/>
-			<key code="40" output="t"/>
-			<key code="37" output="n"/>
-			<key code="41" output="s"/>
+			<key code="4">
+				<action>
+					<when state="none" output="d"/>
+					<when state="dotAboveAccent" output="ḋ"/>
+				</action>
+			</key>
+
+
+			<key code="38">
+				<action>
+					<when state="none" output="h"/>
+					<when state="dotAboveAccent" output="ḣ"/>
+				</action>
+			</key>
+
+			<key code="40">
+				<action>
+					<when state="none" output="t"/>
+					<when state="dotAboveAccent" output="ṫ"/>
+				</action>
+			</key>
+
+
+			<key code="37">
+				<action>
+					<when state="none" output="n"/>
+					<when state="graveAccent" output="ǹ"/>
+					<when state="dotAboveAccent" output="ṅ"/>
+				</action>
+			</key>
+
+			<key code="41">
+				<action>
+					<when state="none" output="s"/>
+					<when state="dotAboveAccent" output="ṡ"/>
+				</action>
+			</key>
+
 			<key code="39" output="-"/>
 
 		<!-- Fourth row from top, from left to right -->
@@ -224,9 +287,25 @@ For more information, please refer to <http://unlicense.org>
 			<key code="7" output="q"/>
 			<key code="8" output="j"/>
 			<key code="9" output="k"/>
-			<key code="11" output="x"/>
-			<key code="45" output="b"/>
-			<key code="46" output="m"/>
+			<key code="11">
+				<action>
+					<when state="none" output="x"/>
+					<when state="dotAboveAccent" output="ẋ"/>
+				</action>
+			</key>
+			<key code="45">
+				<action>
+					<when state="none" output="b"/>
+					<when state="dotAboveAccent" output="ḃ"/>
+				</action>
+			</key>
+			<key code="46">
+				<action>
+					<when state="none" output="m"/>
+					<when state="dotAboveAccent" output="ṁ"/>
+				</action>
+			</key>
+
 			<key code="43">
 				<action>
 					<when state="none" output="w"/>
@@ -252,7 +331,12 @@ For more information, please refer to <http://unlicense.org>
 					<when state="miscLevel" output="ʌ"/>
 				</action>
 			</key>
-			<key code="44" output="z"/>
+			<key code="44">
+				<action>
+					<when state="none" output="z"/>
+					<when state="dotAboveAccent" output="ż"/>
+				</action>
+			</key>
 		</keyMap>
 		<keyMap index="1" baseMapSet="mapSet" baseIndex="3">
 		<!-- When the user holds down shift this is what happens -->
@@ -285,11 +369,42 @@ For more information, please refer to <http://unlicense.org>
 			</key>
 
 
-			<key code="17" output="Y"/>
-			<key code="16" output="F"/>
-			<key code="32" output="G"/>
-			<key code="34" output="C"/>
-			<key code="31" output="R"/>
+			<key code="17">
+				<action>
+					<when state="none" output="Y"/>
+					<when state="graveAccent" output="Ỳ"/>
+					<when state="dotAboveAccent" output="Ẏ"/>
+				</action>
+			</key>
+
+			<key code="16">
+				<action>
+					<when state="none" output="F"/>
+					<when state="dotAboveAccent" output="Ḟ"/>
+				</action>
+			</key>
+
+			<key code="32">
+				<action>
+					<when state="none" output="G"/>
+					<when state="dotAboveAccent" output="Ġ"/>
+				</action>
+			</key>
+
+			<key code="34">
+				<action>
+					<when state="none" output="C"/>
+					<when state="dotAboveAccent" output="Ċ"/>
+				</action>
+			</key>
+
+			<key code="31">
+				<action>
+					<when state="none" output="R"/>
+					<when state="dotAboveAccent" output="Ṙ"/>
+				</action>
+			</key>
+
 			<key code="35" output="L"/>
 			<key code="33" output="?"/>
 			<key code="30" output="+"/>
@@ -396,7 +511,7 @@ For more information, please refer to <http://unlicense.org>
 					<when state="none" output="I"/>
 					<when state="graveAccent" output="Ì"/>
 					<when state="circumflexAccent" output="Î"/>
-					<when state="dotAbove" output="İ"/>
+					<when state="dotAboveAccent" output="İ"/>
 					<when state="acuteAccent" output="Í"/>
 					<when state="diaeresisAccent" output="Ï"/>
 					<when state="macronAccent" output="Ī"/>
@@ -413,11 +528,40 @@ For more information, please refer to <http://unlicense.org>
 					<when state="glottalStopAccent" output="Ɩ"/>
 				</action> 
 			</key>
-			<key code="4" output="D"/>
-			<key code="38" output="H"/>
-			<key code="40" output="T"/>
-			<key code="37" output="N"/>
-			<key code="41" output="S"/>
+			<key code="4">
+				<action>
+					<when state="none" output="D"/>
+					<when state="dotAboveAccent" output="Ḋ"/>
+				</action>
+			</key>
+
+			<key code="38">
+				<action>
+					<when state="none" output="H"/>
+					<when state="dotAboveAccent" output="Ḣ"/>
+				</action>
+			</key>
+
+			<key code="40">
+				<action>
+					<when state="none" output="T"/>
+					<when state="dotAboveAccent" output="Ṫ"/>
+				</action>
+			</key>
+
+			<key code="37">
+				<action>
+					<when state="none" output="N"/>
+					<when state="graveAccent" output="Ǹ"/>
+					<when state="dotAboveAccent" output="Ṅ"/>
+				</action>
+			</key>
+			<key code="41">
+				<action>
+					<when state="none" output="S"/>
+					<when state="dotAboveAccent" output="Ṡ"/>
+				</action>
+			</key>
 			<key code="39" output="_"/>
 
 		<!-- Fourth row from top, from left to right -->
@@ -425,9 +569,24 @@ For more information, please refer to <http://unlicense.org>
 			<key code="7" output="Q"/>
 			<key code="8" output="J"/>
 			<key code="9" output="K"/>
-			<key code="11" output="X"/>
-			<key code="45" output="B"/>
-			<key code="46" output="M"/>
+			<key code="11">
+				<action>
+					<when state="none" output="X"/>
+					<when state="dotAboveAccent" output="Ẋ"/>
+				</action>
+			</key>
+			<key code="45">
+				<action>
+					<when state="none" output="B"/>
+					<when state="dotAboveAccent" output="Ḃ"/>
+				</action>
+			</key>
+			<key code="46">
+				<action>
+					<when state="none" output="M"/>
+					<when state="dotAboveAccent" output="Ṁ"/>
+				</action>
+			</key>
 			<key code="43">
 				<action>
 					<when state="none" output="W"/>
@@ -452,7 +611,12 @@ For more information, please refer to <http://unlicense.org>
 					<when state="tildeAccent" output="Ṽ"/>
 				</action>
 			</key>
-			<key code="44" output="Z"/>
+			<key code="44">
+				<action>
+					<when state="none" output="Z"/>
+					<when state="dotAboveAccent" output="Ż"/>
+				</action>
+			</key>
 		</keyMap>
 		<keyMap index="2" baseMapSet="mapSet" baseIndex="1">
 		<!-- Caps lock -->
