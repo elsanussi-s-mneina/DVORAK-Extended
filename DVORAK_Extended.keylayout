@@ -162,7 +162,18 @@ For more information, please refer to <http://unlicense.org>
 					<when state="miscLevel" output="ƿ"/>
 				</action>
 			</key>
-			<key code="47" output="v"/>
+			<key code="47">
+				<action>
+					<when state="none" output="v"/>
+					<when state="graveAccent" output="ǜ"/>
+					<when state="acuteAccent" output="ǘ"/>
+					<when state="macronAccent" output="ǖ"/>
+					<when state="dotBelowAccent" output="ṿ"/>
+					<when state="caretAccent" output="ǚ"/>
+					<when state="tildeAccent" output="ṽ"/>
+					<when state="miscLevel" output="ʌ"/>
+				</action>
+			</key>
 			<key code="44" output="z"/>
 		</keyMap>
 		<keyMap index="1" baseMapSet="mapSet" baseIndex="3">
@@ -273,7 +284,17 @@ For more information, please refer to <http://unlicense.org>
 					<when state="miscLevel" output="Ƿ"/>
 				</action>
 			</key>
-			<key code="47" output="V"/>
+			<key code="47">
+				<action>
+					<when state="none" output="V"/>
+					<when state="graveAccent" output="Ǜ"/>
+					<when state="acuteAccent" output="Ǘ"/>
+					<when state="macronAccent" output="Ǖ"/>
+					<when state="dotBelowAccent" output="Ṿ"/>
+					<when state="caretAccent" output="Ǚ"/>
+					<when state="tildeAccent" output="Ṽ"/>
+				</action>
+			</key>
 			<key code="44" output="Z"/>
 		</keyMap>
 		<keyMap index="2" baseMapSet="mapSet" baseIndex="3">
