@@ -30,7 +30,7 @@ For more information, please refer to <http://unlicense.org>
 -->
 
 <keyboard group="126" id="-693" name="Dvorak - Extended">
-	<!-- Version v0.10 -->
+	<!-- Version v0.11 -->
 	<layouts>
 		<layout first="0" last="0" modifiers="commonModifiers" mapSet="mapSet"/>
 	</layouts>
@@ -1068,7 +1068,7 @@ o ø
 
 			<key code="13" action="dotAbove"/>
 			<key code="2" action="acute"/>
-			<key code="32" action="diaeresis"/>
+			<key code="3" action="diaeresis"/>
 			<key code="34" action="apostrophe"/>
 			<key code="35" action="comma"/>
 <!-- 
