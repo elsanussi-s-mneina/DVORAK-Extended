@@ -29,7 +29,8 @@ For more information, please refer to <http://unlicense.org>
 
 -->
 
-<keyboard group="126" id="-693" name="DVORAK-extendedv0.07">
+<keyboard group="126" id="-693" name="Dvorak - Extended">
+	<!-- Version v0.08 -->
 	<layouts>
 		<layout first="0" last="0" modifiers="commonModifiers" mapSet="mapSet"/>
 	</layouts>
@@ -99,6 +100,7 @@ For more information, please refer to <http://unlicense.org>
 				<action>
 					<when state="none" output="g"/>
 					<when state="dotAboveAccent" output="ġ"/>
+					<when state="acuteAccent" output="ǵ"/>
 				</action>
 			</key>
 
@@ -106,6 +108,7 @@ For more information, please refer to <http://unlicense.org>
 				<action>
 					<when state="none" output="c"/>
 					<when state="dotAboveAccent" output="ċ"/>
+					<when state="acuteAccent" output="ć"/>
 				</action>
 			</key>
 
@@ -113,9 +116,16 @@ For more information, please refer to <http://unlicense.org>
 				<action>
 					<when state="none" output="r"/>
 					<when state="dotAboveAccent" output="ṙ"/>
+					<when state="acuteAccent" output="ŕ"/>
 				</action>
 			</key>
-			<key code="35" output="l"/>
+			<key code="35">
+				<action>
+					<when state="none" output="l"/>
+					<when state="acuteAccent" output="ĺ"/>
+				</action>
+			</key>
+
 			<key code="33" output="/"/>
 			<key code="30" output="="/>
 			<key code="42" output="\"/>
@@ -270,6 +280,7 @@ For more information, please refer to <http://unlicense.org>
 					<when state="none" output="n"/>
 					<when state="graveAccent" output="ǹ"/>
 					<when state="dotAboveAccent" output="ṅ"/>
+					<when state="acuteAccent" output="ń"/>
 				</action>
 			</key>
 
@@ -277,6 +288,7 @@ For more information, please refer to <http://unlicense.org>
 				<action>
 					<when state="none" output="s"/>
 					<when state="dotAboveAccent" output="ṡ"/>
+					<when state="acuteAccent" output="ś"/>
 				</action>
 			</key>
 
@@ -285,8 +297,19 @@ For more information, please refer to <http://unlicense.org>
 		<!-- Fourth row from top, from left to right -->
 			<key code="6" output=";"/>
 			<key code="7" output="q"/>
-			<key code="8" output="j"/>
-			<key code="9" output="k"/>
+			<key code="8">
+				<action>
+					<when state="none" output="j"/>
+					<when state="acuteAccent" output="j́"/>
+				</action>
+			</key>
+			<key code="9">
+				<action>
+					<when state="none" output="k"/>
+					<when state="acuteAccent" output="ḱ"/>
+				</action>
+			</key>
+
 			<key code="11">
 				<action>
 					<when state="none" output="x"/>
@@ -303,6 +326,7 @@ For more information, please refer to <http://unlicense.org>
 				<action>
 					<when state="none" output="m"/>
 					<when state="dotAboveAccent" output="ṁ"/>
+					<when state="acuteAccent" output="ḿ"/>
 				</action>
 			</key>
 
@@ -335,6 +359,7 @@ For more information, please refer to <http://unlicense.org>
 				<action>
 					<when state="none" output="z"/>
 					<when state="dotAboveAccent" output="ż"/>
+					<when state="acuteAccent" output="ź"/>
 				</action>
 			</key>
 		</keyMap>
@@ -388,6 +413,7 @@ For more information, please refer to <http://unlicense.org>
 				<action>
 					<when state="none" output="G"/>
 					<when state="dotAboveAccent" output="Ġ"/>
+					<when state="acuteAccent" output="Ǵ"/>
 				</action>
 			</key>
 
@@ -395,6 +421,7 @@ For more information, please refer to <http://unlicense.org>
 				<action>
 					<when state="none" output="C"/>
 					<when state="dotAboveAccent" output="Ċ"/>
+					<when state="acuteAccent" output="Ć"/>
 				</action>
 			</key>
 
@@ -402,10 +429,17 @@ For more information, please refer to <http://unlicense.org>
 				<action>
 					<when state="none" output="R"/>
 					<when state="dotAboveAccent" output="Ṙ"/>
+					<when state="acuteAccent" output="Ŕ"/>
 				</action>
 			</key>
 
-			<key code="35" output="L"/>
+			<key code="35">
+				<action>
+					<when state="none" output="L"/>
+					<when state="acuteAccent" output="Ĺ"/>
+				</action>
+			</key>
+
 			<key code="33" output="?"/>
 			<key code="30" output="+"/>
 			<key code="42" output="|"/>
@@ -554,12 +588,14 @@ For more information, please refer to <http://unlicense.org>
 					<when state="none" output="N"/>
 					<when state="graveAccent" output="Ǹ"/>
 					<when state="dotAboveAccent" output="Ṅ"/>
+					<when state="acuteAccent" output="Ń"/>
 				</action>
 			</key>
 			<key code="41">
 				<action>
 					<when state="none" output="S"/>
 					<when state="dotAboveAccent" output="Ṡ"/>
+					<when state="acuteAccent" output="Ś"/>
 				</action>
 			</key>
 			<key code="39" output="_"/>
@@ -567,8 +603,20 @@ For more information, please refer to <http://unlicense.org>
 		<!-- Fourth row from top, from left to right -->
 			<key code="6" output=":"/>
 			<key code="7" output="Q"/>
-			<key code="8" output="J"/>
-			<key code="9" output="K"/>
+			<key code="8">
+				<action>
+					<when state="none" output="J"/>
+					<when state="acuteAccent" output="J́"/>
+				</action>
+			</key>
+
+			<key code="9">
+				<action>
+					<when state="none" output="K"/>
+					<when state="acuteAccent" output="Ḱ"/>
+				</action>
+			</key>
+
 			<key code="11">
 				<action>
 					<when state="none" output="X"/>
@@ -585,6 +633,7 @@ For more information, please refer to <http://unlicense.org>
 				<action>
 					<when state="none" output="M"/>
 					<when state="dotAboveAccent" output="Ṁ"/>
+					<when state="acuteAccent" output="Ḿ"/>
 				</action>
 			</key>
 			<key code="43">
@@ -615,6 +664,8 @@ For more information, please refer to <http://unlicense.org>
 				<action>
 					<when state="none" output="Z"/>
 					<when state="dotAboveAccent" output="Ż"/>
+					<when state="acuteAccent" output="Ź"/>
+					
 				</action>
 			</key>
 		</keyMap>
