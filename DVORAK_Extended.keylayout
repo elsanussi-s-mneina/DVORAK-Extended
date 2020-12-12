@@ -260,7 +260,19 @@ For more information, please refer to <http://unlicense.org>
 			<key code="11" output="X"/>
 			<key code="45" output="B"/>
 			<key code="46" output="M"/>
-			<key code="43" output="W"/>
+			<key code="43">
+				<action>
+					<when state="none" output="W"/>
+					<when state="graveAccent" output="Ẁ"/>
+					<when state="circumflexAccent" output="Ŵ"/>
+					<when state="dotAboveAccent" output="Ẇ"/>
+					<when state="acuteAccent" output="Ẃ"/>
+					<when state="diaeresisAccent" output="Ẅ"/>
+					<when state="ringAccent" output="W̊"/>
+					<when state="dotBelowAccent" output="Ẉ"/>
+					<when state="miscLevel" output="Ƿ"/>
+				</action>
+			</key>
 			<key code="47" output="V"/>
 			<key code="44" output="Z"/>
 		</keyMap>
