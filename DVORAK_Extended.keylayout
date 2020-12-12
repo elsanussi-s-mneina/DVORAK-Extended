@@ -56,13 +56,52 @@ For more information, please refer to <http://unlicense.org>
 		<!-- Top row, from left to right on ANSI Keyboard -->
 			<key code="50" output="`"/>
 			<key code="18" output="1"/>
-			<key code="19" output="2"/>
-			<key code="20" output="3"/>
+			<key code="19">
+				<action>
+					<when state="none" output="2"/>
+					<when state="miscLevel" output="ƨ"/>
+				</action>
+			</key>
+
+			<key code="20">
+				<action>
+					<when state="none" output="3"/>
+					<when state="miscLevel" output="ɛ"/>
+				</action>
+			</key>
+
 			<key code="21" output="4"/>
-			<key code="23" output="5"/>
-			<key code="22" output="6"/>
-			<key code="26" output="7"/>
-			<key code="28" output="8"/>
+			<key code="23">
+				<action>
+					<when state="none" output="5"/>
+					<when state="miscLevel" output="ƽ"/>
+				</action>
+			</key>
+
+			<key code="22">
+				<action>
+					<when state="none" output="6"/>
+					<when state="miscLevel" output="ƅ"/>
+				</action>
+			</key>
+
+
+			<key code="26">
+				<action>
+					<when state="none" output="7"/>
+					<when state="miscLevel" output="⁊"/>
+				</action>
+			</key>
+
+
+			<key code="28">
+				<action>
+					<when state="none" output="8"/>
+					<when state="miscLevel" output="ȣ"/>
+				</action>
+			</key>
+
+
 			<key code="25" output="9"/>
 			<key code="29" output="0"/>
 			<key code="27" output="["/>
@@ -86,6 +125,12 @@ For more information, please refer to <http://unlicense.org>
 					<when state="none" output="y"/>
 					<when state="graveAccent" output="ỳ"/>
 					<when state="dotAboveAccent" output="ẏ"/>
+					<when state="diaeresisAccent" output="ÿ"/>
+					<when state="macronAccent" output="ȳ"/>
+					<when state="hookAccent" output="ỷ"/>
+					<when state="dotBelowAccent" output="ỵ"/>
+					<when state="tildeAccent" output="ỹ"/>
+					<when state="miscLevel" output="ȝ"/>
 				</action>
 			</key>
 
@@ -101,6 +146,12 @@ For more information, please refer to <http://unlicense.org>
 					<when state="none" output="g"/>
 					<when state="dotAboveAccent" output="ġ"/>
 					<when state="acuteAccent" output="ǵ"/>
+					<when state="macronAccent" output="ḡ"/>
+					<when state="strokeAccent" output="ǥ"/>
+					<when state="cedillaAccent" output="ģ"/>
+					<when state="caronAccent" output="ǧ"/>
+					<when state="breveAccent" output="ğ"/>
+					<when state="miscLevel" output="ɣ"/>
 				</action>
 			</key>
 
@@ -109,6 +160,9 @@ For more information, please refer to <http://unlicense.org>
 					<when state="none" output="c"/>
 					<when state="dotAboveAccent" output="ċ"/>
 					<when state="acuteAccent" output="ć"/>
+					<when state="cedillaAccent" output="ç"/>
+					<when state="caronAccent" output="č"/>
+					<when state="miscLevel" output="ɔ"/>
 				</action>
 			</key>
 
@@ -117,12 +171,26 @@ For more information, please refer to <http://unlicense.org>
 					<when state="none" output="r"/>
 					<when state="dotAboveAccent" output="ṙ"/>
 					<when state="acuteAccent" output="ŕ"/>
+					<when state="macronAccent" output="ṝ"/>
+					<when state="lowMacronAccent" output="ṟ"/>
+					<when state="dotBelowAccent" output="ṛ"/>
+					<when state="cedillaAccent" output="ŗ"/>
+					<when state="caronAccent" output="ř"/>
+					<when state="doubleGraveAccent" output="ȑ"/>
+					<when state="invertedBreveAccent" output="ȓ"/>
 				</action>
 			</key>
 			<key code="35">
 				<action>
 					<when state="none" output="l"/>
 					<when state="acuteAccent" output="ĺ"/>
+					<when state="macronAccent" output="ḹ"/>
+					<when state="lowMacronAccent" output="ḻ"/>
+					<when state="strokeAccent" output="ł"/>
+					<when state="dotBelowAccent" output="ḷ"/>
+					<when state="cedillaAccent" output="ļ"/>
+					<when state="caronAccent" output="ľ"/>
+					<when state="circumflexBelowAccent" output="ḽ"/>
 				</action>
 			</key>
 
@@ -256,6 +324,12 @@ For more information, please refer to <http://unlicense.org>
 				<action>
 					<when state="none" output="d"/>
 					<when state="dotAboveAccent" output="ḋ"/>
+					<when state="lowMacronAccent" output="ḏ"/>
+					<when state="strokeAccent" output="đ"/>
+					<when state="dotBelowAccent" output="ḍ"/>
+					<when state="cedillaAccent" output="ḑ"/>
+					<when state="caronAccent" output="ď"/>
+					<when state="circumflexBelowAccent" output="ḓ"/>
 				</action>
 			</key>
 
@@ -264,6 +338,13 @@ For more information, please refer to <http://unlicense.org>
 				<action>
 					<when state="none" output="h"/>
 					<when state="dotAboveAccent" output="ḣ"/>
+					<when state="diaeresisAccent" output="ḧ"/>
+					<when state="lowMacronAccent" output="ẖ"/>
+					<when state="dotBelowAccent" output="ḥ"/>
+					<when state="cedillaAccent" output="ḩ"/>
+					<when state="caronAccent" output="ȟ"/>
+					<when state="breveAccent" output="ḫ"/>
+					<when state="miscLevel" output="ƕ"/>
 				</action>
 			</key>
 
@@ -271,6 +352,13 @@ For more information, please refer to <http://unlicense.org>
 				<action>
 					<when state="none" output="t"/>
 					<when state="dotAboveAccent" output="ṫ"/>
+					<when state="diaeresisAccent" output="ẗ"/>
+					<when state="lowMacronAccent" output="ṯ"/>
+					<when state="strokeAccent" output="ŧ"/>
+					<when state="dotBelowAccent" output="ṭ"/>
+					<when state="cedillaAccent" output="ţ"/>
+					<when state="caronAccent" output="ť"/>
+					<when state="circumflexBelowAccent" output="Ṱ"/>
 				</action>
 			</key>
 
@@ -281,6 +369,13 @@ For more information, please refer to <http://unlicense.org>
 					<when state="graveAccent" output="ǹ"/>
 					<when state="dotAboveAccent" output="ṅ"/>
 					<when state="acuteAccent" output="ń"/>
+					<when state="lowMacronAccent" output="ṉ"/>
+					<when state="dotBelowAccent" output="ṇ"/>
+					<when state="cedillaAccent" output="ņ"/>
+					<when state="caronAccent" output="ň"/>
+					<when state="tildeAccent" output="ñ"/>
+					<when state="circumflexBelowAccent" output="ṋ"/>
+					<when state="miscLevel" output="ŋ"/>
 				</action>
 			</key>
 
@@ -289,10 +384,22 @@ For more information, please refer to <http://unlicense.org>
 					<when state="none" output="s"/>
 					<when state="dotAboveAccent" output="ṡ"/>
 					<when state="acuteAccent" output="ś"/>
+					<when state="macronAccent" output="s̄"/>
+					<when state="dotBelowAccent" output="ṣ"/>
+					<when state="cedillaAccent" output="ş"/>
+					<when state="caronAccent" output="š"/>
+					<when state="miscLevel" output="ſ"/>
 				</action>
 			</key>
 
-			<key code="39" output="-"/>
+			<key code="39">
+				<action>
+					<when state="none" output="-"/>
+					<when state="miscLevel" output="ʹ"/>
+				</action>
+			</key>
+
+
 
 		<!-- Fourth row from top, from left to right -->
 			<key code="6" output=";"/>
@@ -301,12 +408,19 @@ For more information, please refer to <http://unlicense.org>
 				<action>
 					<when state="none" output="j"/>
 					<when state="acuteAccent" output="j́"/>
+					<when state="caronAccent" output="ǰ"/>
+					<when state="miscLevel" output="ƞ"/>
 				</action>
 			</key>
 			<key code="9">
 				<action>
 					<when state="none" output="k"/>
 					<when state="acuteAccent" output="ḱ"/>
+					<when state="lowMacronAccent" output="ḵ"/>
+					<when state="dotBelowAccent" output="ḳ"/>
+					<when state="cedillaAccent" output="ķ"/>
+					<when state="caronAccent" output="ǩ"/>
+					<when state="miscLevel" output="ĸ"/>
 				</action>
 			</key>
 
@@ -314,12 +428,17 @@ For more information, please refer to <http://unlicense.org>
 				<action>
 					<when state="none" output="x"/>
 					<when state="dotAboveAccent" output="ẋ"/>
+					<when state="diaeresisAccent" output="ẍ"/>
+					<when state="caronAccent" output="ǯ"/>
 				</action>
 			</key>
 			<key code="45">
 				<action>
 					<when state="none" output="b"/>
 					<when state="dotAboveAccent" output="ḃ"/>
+					<when state="lowMacronAccent" output="ḇ"/>
+					<when state="strokeAccent" output="ƀ"/>
+					<when state="dotBelowAccent" output="ḅ"/>
 				</action>
 			</key>
 			<key code="46">
@@ -327,6 +446,8 @@ For more information, please refer to <http://unlicense.org>
 					<when state="none" output="m"/>
 					<when state="dotAboveAccent" output="ṁ"/>
 					<when state="acuteAccent" output="ḿ"/>
+					<when state="dotBelowAccent" output="ṃ"/>
+					<when state="miscLevel" output="ɯ"/>
 				</action>
 			</key>
 
@@ -360,6 +481,13 @@ For more information, please refer to <http://unlicense.org>
 					<when state="none" output="z"/>
 					<when state="dotAboveAccent" output="ż"/>
 					<when state="acuteAccent" output="ź"/>
+					<when state="macronAccent" output="z̄"/>
+					<when state="lowMacronAccent" output="ẕ"/>
+					<when state="strokeAccent" output="ƶ"/>
+					<when state="dotBelowAccent" output="ẓ"/>
+					<when state="cedillaAccent" output="z̧"/>
+					<when state="caronAccent" output="ž"/>
+					<when state="miscLevel" output="ʒ"/>
 				</action>
 			</key>
 		</keyMap>
@@ -368,13 +496,42 @@ For more information, please refer to <http://unlicense.org>
 		<!-- Top row, from left to right -->
 			<key code="50" output="~"/>
 			<key code="18" output="!"/>
-			<key code="19" output="@"/>
-			<key code="20" output="#"/>
+			<key code="19">
+				<action>
+					<when state="none" output="@"/>
+					<when state="miscLevel" output="Ƨ"/>
+				</action>
+			</key>
+			<key code="20">
+				<action>
+					<when state="none" output="#"/>
+					<when state="miscLevel" output="Ɛ"/>
+				</action>
+			</key>
 			<key code="21" output="$"/>
-			<key code="23" output="%"/>
-			<key code="22" output="^"/>
+			<key code="23">
+				<action>
+					<when state="none" output="%"/>
+					<when state="miscLevel" output="Ƽ"/>
+				</action>
+			</key>
+
+			<key code="22">
+				<action>
+					<when state="none" output="^"/>
+					<when state="miscLevel" output="Ƅ"/>
+				</action>
+			</key>
+
 			<key code="26" output="&#38;"/> <!-- the output is the ampersand -->
-			<key code="28" output="*"/>
+			<key code="28">
+				<action>
+					<when state="none" output="*"/>
+					<when state="miscLevel" output="Ȣ"/>
+				</action>
+			</key>
+
+
 			<key code="25" output="("/>
 			<key code="29" output=")"/>
 			<key code="27" output="{"/>
@@ -399,6 +556,12 @@ For more information, please refer to <http://unlicense.org>
 					<when state="none" output="Y"/>
 					<when state="graveAccent" output="Ỳ"/>
 					<when state="dotAboveAccent" output="Ẏ"/>
+					<when state="diaeresisAccent" output="Ÿ"/>
+					<when state="macronAccent" output="Ȳ"/>
+					<when state="hookAccent" output="Ỷ"/>
+					<when state="dotBelowAccent" output="Ỵ"/>
+					<when state="tildeAccent" output="Ỹ"/>
+					<when state="miscLevel" output="Ȝ"/>
 				</action>
 			</key>
 
@@ -414,6 +577,12 @@ For more information, please refer to <http://unlicense.org>
 					<when state="none" output="G"/>
 					<when state="dotAboveAccent" output="Ġ"/>
 					<when state="acuteAccent" output="Ǵ"/>
+					<when state="macronAccent" output="Ḡ"/>
+					<when state="strokeAccent" output="Ǥ"/>
+					<when state="cedillaAccent" output="Ģ"/>
+					<when state="caronAccent" output="Ǧ"/>
+					<when state="breveAccent" output="Ğ"/>
+					<when state="miscLevel" output="Ɣ"/>
 				</action>
 			</key>
 
@@ -422,6 +591,9 @@ For more information, please refer to <http://unlicense.org>
 					<when state="none" output="C"/>
 					<when state="dotAboveAccent" output="Ċ"/>
 					<when state="acuteAccent" output="Ć"/>
+					<when state="cedillaAccent" output="Ç"/>
+					<when state="caronAccent" output="Č"/>
+					<when state="miscLevel" output="Ɔ"/>
 				</action>
 			</key>
 
@@ -430,6 +602,13 @@ For more information, please refer to <http://unlicense.org>
 					<when state="none" output="R"/>
 					<when state="dotAboveAccent" output="Ṙ"/>
 					<when state="acuteAccent" output="Ŕ"/>
+					<when state="macronAccent" output="Ṝ"/>
+					<when state="lowMacronAccent" output="Ṟ"/>
+					<when state="dotBelowAccent" output="Ṛ"/>
+					<when state="cedillaAccent" output="Ŗ"/>
+					<when state="caronAccent" output="Ř"/>
+					<when state="doubleGraveAccent" output="Ȑ"/>
+					<when state="invertedBreveAccent" output="Ȓ"/>
 				</action>
 			</key>
 
@@ -437,6 +616,13 @@ For more information, please refer to <http://unlicense.org>
 				<action>
 					<when state="none" output="L"/>
 					<when state="acuteAccent" output="Ĺ"/>
+					<when state="macronAccent" output="Ḹ"/>
+					<when state="lowMacronAccent" output="Ḻ"/>
+					<when state="strokeAccent" output="Ł"/>
+					<when state="dotBelowAccent" output="Ḷ"/>
+					<when state="cedillaAccent" output="Ļ"/>
+					<when state="caronAccent" output="Ľ"/>
+					<when state="circumflexBelowAccent" output="Ḽ"/>
 				</action>
 			</key>
 
@@ -566,6 +752,12 @@ For more information, please refer to <http://unlicense.org>
 				<action>
 					<when state="none" output="D"/>
 					<when state="dotAboveAccent" output="Ḋ"/>
+					<when state="lowMacronAccent" output="Ḏ"/>
+					<when state="strokeAccent" output="Đ"/>
+					<when state="dotBelowAccent" output="Ḍ"/>
+					<when state="cedillaAccent" output="Ḑ"/>
+					<when state="caronAccent" output="Ď"/>
+					<when state="circumflexBelowAccent" output="Ḓ"/>
 				</action>
 			</key>
 
@@ -573,6 +765,13 @@ For more information, please refer to <http://unlicense.org>
 				<action>
 					<when state="none" output="H"/>
 					<when state="dotAboveAccent" output="Ḣ"/>
+					<when state="diaeresisAccent" output="Ḧ"/>
+					<when state="lowMacronAccent" output="H̱"/>
+					<when state="dotBelowAccent" output="Ḥ"/>
+					<when state="cedillaAccent" output="Ḩ"/>
+					<when state="caronAccent" output="Ȟ"/>
+					<when state="breveAccent" output="Ḫ"/>
+					<when state="miscLevel" output="Ƕ"/>
 				</action>
 			</key>
 
@@ -580,6 +779,13 @@ For more information, please refer to <http://unlicense.org>
 				<action>
 					<when state="none" output="T"/>
 					<when state="dotAboveAccent" output="Ṫ"/>
+					<when state="diaeresisAccent" output="T̈"/>
+					<when state="lowMacronAccent" output="Ṯ"/>
+					<when state="strokeAccent" output="Ŧ"/>
+					<when state="dotBelowAccent" output="Ṭ"/>
+					<when state="cedillaAccent" output="Ţ"/>
+					<when state="caronAccent" output="Ť"/>
+					<when state="circumflexBelowAccent" output="Ṱ"/>
 				</action>
 			</key>
 
@@ -589,6 +795,13 @@ For more information, please refer to <http://unlicense.org>
 					<when state="graveAccent" output="Ǹ"/>
 					<when state="dotAboveAccent" output="Ṅ"/>
 					<when state="acuteAccent" output="Ń"/>
+					<when state="lowMacronAccent" output="Ṉ"/>
+					<when state="dotBelowAccent" output="Ṇ"/>
+					<when state="cedillaAccent" output="Ņ"/>
+					<when state="caronAccent" output="Ň"/>
+					<when state="tildeAccent" output="Ñ"/>
+					<when state="circumflexBelowAccent" output="Ṋ"/>
+					<when state="miscLevel" output="Ŋ"/>
 				</action>
 			</key>
 			<key code="41">
@@ -596,9 +809,18 @@ For more information, please refer to <http://unlicense.org>
 					<when state="none" output="S"/>
 					<when state="dotAboveAccent" output="Ṡ"/>
 					<when state="acuteAccent" output="Ś"/>
+					<when state="macronAccent" output="S̄"/>
+					<when state="dotBelowAccent" output="Ṣ"/>
+					<when state="cedillaAccent" output="Ş"/>
+					<when state="caronAccent" output="Š"/>
 				</action>
 			</key>
-			<key code="39" output="_"/>
+			<key code="39">
+				<action>
+					<when state="none" output="_"/>
+					<when state="miscLevel" output="ʺ"/>
+				</action>
+			</key>
 
 		<!-- Fourth row from top, from left to right -->
 			<key code="6" output=":"/>
@@ -607,6 +829,8 @@ For more information, please refer to <http://unlicense.org>
 				<action>
 					<when state="none" output="J"/>
 					<when state="acuteAccent" output="J́"/>
+					<when state="caronAccent" output="J̌"/>
+					<when state="miscLevel" output="Ƞ"/>
 				</action>
 			</key>
 
@@ -614,6 +838,11 @@ For more information, please refer to <http://unlicense.org>
 				<action>
 					<when state="none" output="K"/>
 					<when state="acuteAccent" output="Ḱ"/>
+					<when state="lowMacronAccent" output="Ḵ"/>
+					<when state="dotBelowAccent" output="Ḳ"/>
+					<when state="cedillaAccent" output="Ķ"/>
+					<when state="caronAccent" output="Ǩ"/>
+					<when state="miscLevel" output="K’"/>
 				</action>
 			</key>
 
@@ -621,12 +850,16 @@ For more information, please refer to <http://unlicense.org>
 				<action>
 					<when state="none" output="X"/>
 					<when state="dotAboveAccent" output="Ẋ"/>
+					<when state="diaeresisAccent" output="Ẍ"/>
+					<when state="caronAccent" output="Ǯ"/>
 				</action>
 			</key>
 			<key code="45">
 				<action>
 					<when state="none" output="B"/>
 					<when state="dotAboveAccent" output="Ḃ"/>
+					<when state="lowMacronAccent" output="Ḇ"/>
+					<when state="dotBelowAccent" output="Ḅ"/>
 				</action>
 			</key>
 			<key code="46">
@@ -634,6 +867,8 @@ For more information, please refer to <http://unlicense.org>
 					<when state="none" output="M"/>
 					<when state="dotAboveAccent" output="Ṁ"/>
 					<when state="acuteAccent" output="Ḿ"/>
+					<when state="dotBelowAccent" output="Ṃ"/>
+					<when state="miscLevel" output="Ɯ"/>
 				</action>
 			</key>
 			<key code="43">
@@ -665,7 +900,13 @@ For more information, please refer to <http://unlicense.org>
 					<when state="none" output="Z"/>
 					<when state="dotAboveAccent" output="Ż"/>
 					<when state="acuteAccent" output="Ź"/>
-					
+					<when state="macronAccent" output="Z̄"/>
+					<when state="lowMacronAccent" output="Ẕ"/>
+					<when state="strokeAccent" output="Ƶ"/>
+					<when state="dotBelowAccent" output="Ẓ"/>
+					<when state="cedillaAccent" output="Z̧"/>
+					<when state="caronAccent" output="Ž"/>
+					<when state="miscLevel" output="Ʒ"/>
 				</action>
 			</key>
 		</keyMap>
