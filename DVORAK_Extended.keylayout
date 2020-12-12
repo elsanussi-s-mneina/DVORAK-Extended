@@ -372,9 +372,7 @@ ogonek
 			<key code="38" action="doubleAcute"/>
 			<key code="40" action="ring"/>
 			<key code="37" action="stroke"/>
-<!-- 
-			<key code="39" action="92"/>
--->
+			<key code="39" output="æ"/>
 			<!-- Row above space bar -->
 			<key code="6" action="hook"/>
 			<key code="7" action="dotBelow"/>
@@ -385,7 +383,18 @@ ogonek
 			<key code="46" action="ogonek"/>
 		</keyMap>
 		<keyMap index="5">
+			<!-- Tab row -->
+			<key code="16" action="doubleGrave"/>
+
+			<!-- Caps lock row -->
+			<key code="1" action="invertedBreve"/>
+			<key code="3" action="tildeBelow"/>
+			<key code="5" action="circumflexBelow"/>
 			<key code="41" action="misc"/>
+
+			<!-- Shift row -->
+			<key code="47" action="glottalStop"/>
+
 		</keyMap>
 	</keyMapSet>
 	<actions>
@@ -425,10 +434,9 @@ ogonek
 		<action id="stroke">
 			<when state="none" next="strokeAccent"/>
 		</action>
-		<!--
 		<action id="glottalStop">
 			<when state="none" next="glottalStopAccent"/>
-		</action> -->
+		</action>
 		<action id="dotBelow">
 			<when state="none" next="dotBelowAccent"/>
 		</action>
@@ -453,15 +461,12 @@ ogonek
 		<action id="invertedBreve">
 			<when state="none" next="invertedBreveAccent"/>
 		</action>
-<!--
-
 		<action id="tildeBelow">
 			<when state="none" next="tildeBelowAccent"/>
 		</action>
 		<action id="circumflexBelow">
 			<when state="none" next="circumflexBelowAccent"/>
 		</action>
- -->
 		<action id="misc">
 			<when state="none" next="miscLevel"/>
 		</action>
@@ -482,8 +487,7 @@ ogonek
 		<when state="doubleAcuteAccent" output="˝"/>
 		<when state="ringAccent" output="˚"/>
 		<when state="strokeAccent" output="-"/>
-		<!-- <when state="glottalStopAccent" output="ʔ"/> -->
-
+		<when state="glottalStopAccent" output="ʔ"/>
 		<when state="dotBelowAccent" output="."/>
 		<when state="cedillaAccent" output="¸"/>
 		<when state="caronAccent" output="ˇ"/>
@@ -492,8 +496,8 @@ ogonek
 		<when state="ogonekAccent" output="˛"/>
 		<when state="doubleGraveAccent" output=" ̏"/>
 		<when state="invertedBreveAccent" output=" ̑"/>
-		<!-- <when state="tildeBelowAccent" output=" ̰"/>
-		<when state="circumflexBelowAccent" output="‸"/> -->
+		<when state="tildeBelowAccent" output=" ̰"/>
+		<when state="circumflexBelowAccent" output="‸"/>
 		<when state="miscLevel" output="№"/>
 		<when state="hookAccent" output="ˀ"/>
 	</terminators>
