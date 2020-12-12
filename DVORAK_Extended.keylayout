@@ -43,9 +43,12 @@ For more information, please refer to <http://unlicense.org>
 		<keyMapSelect mapIndex="2">
 			<modifier keys="caps"/>
 		</keyMapSelect>
-        <keyMapSelect mapIndex="4">
-            <modifier keys="anyOption"/>
-        </keyMapSelect>
+		<keyMapSelect mapIndex="4">
+			<modifier keys="anyOption"/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="5">
+			<modifier keys="anyOption shift"/>
+		</keyMapSelect>
 	</modifierMap>
 	<keyMapSet id="mapSet">
 		<keyMap index="0" baseMapSet="mapSet" baseIndex="3">
@@ -380,6 +383,9 @@ ogonek
 			<key code="11" action="breve"/>
 			<key code="45" action="tilde"/>
 			<key code="46" action="ogonek"/>
+		</keyMap>
+		<keyMap index="5">
+			<key code="41" action="misc"/>
 		</keyMap>
 	</keyMapSet>
 	<actions>
