@@ -29,7 +29,7 @@ For more information, please refer to <http://unlicense.org>
 
 -->
 
-<keyboard group="126" id="-693" name="DVORAK-extendedv0.03">
+<keyboard group="126" id="-693" name="DVORAK-extendedv0.04">
 	<layouts>
 		<layout first="0" last="0" modifiers="commonModifiers" mapSet="mapSet"/>
 	</layouts>
@@ -156,8 +156,32 @@ For more information, please refer to <http://unlicense.org>
 				</action> 
 			</key>
 
-
-			<key code="3" output="u"/>
+			<key code="3">
+				<action>
+					<when state="none" output="u"/>
+					<when state="graveAccent" output="ù"/>
+					<when state="circumflexAccent" output="û"/>
+					<when state="acuteAccent" output="ú"/>
+					<when state="diaeresisAccent" output="ü"/>
+					<when state="apostropheAccent" output="ư"/>
+					<when state="macronAccent" output="ū"/>
+					<when state="doubleAcuteAccent" output="ű"/>
+					<when state="ringAccent" output="ů"/>
+					<when state="strokeAccent" output="ʉ"/>
+					<when state="hookAccent" output="ủ"/>
+					<when state="dotBelowAccent" output="ụ"/>
+					<when state="caronAccent" output="ǔ"/>
+					<when state="breveAccent" output="ŭ"/>
+					<when state="tildeAccent" output="ũ"/>
+					<when state="ogonekAccent" output="ų"/>
+					<when state="doubleGraveAccent" output="ȕ"/>
+					<when state="invertedBreveAccent" output="ȗ"/>
+					<when state="tildeBelowAccent" output="ṵ"/>
+					<when state="circumflexBelowAccent" output="ṷ"/>
+					<when state="miscLevel" output="ʊ"/>
+					<when state="glottalStopAccent" output="ʋ"/>
+				</action> 
+			</key>
 			<key code="5" output="i"/>
 			<key code="4" output="d"/>
 			<key code="38" output="h"/>
@@ -304,7 +328,31 @@ For more information, please refer to <http://unlicense.org>
 				</action> 
 			</key>
 
-			<key code="3" output="U"/>
+			<key code="3">
+				<action>
+					<when state="none" output="U"/>
+					<when state="graveAccent" output="Ù"/>
+					<when state="circumflexAccent" output="Û"/>
+					<when state="acuteAccent" output="Ú"/>
+					<when state="diaeresisAccent" output="Ü"/>
+					<when state="apostropheAccent" output="Ư"/>
+					<when state="macronAccent" output="Ū"/>
+					<when state="doubleAcuteAccent" output="Ű"/>
+					<when state="ringAccent" output="Ů"/>
+					<when state="hookAccent" output="Ủ"/>
+					<when state="dotBelowAccent" output="Ụ"/>
+					<when state="caronAccent" output="Ǔ"/>
+					<when state="breveAccent" output="Ŭ"/>
+					<when state="tildeAccent" output="Ũ"/>
+					<when state="ogonekAccent" output="Ų"/>
+					<when state="doubleGraveAccent" output="Ȕ"/>
+					<when state="invertedBreveAccent" output="Ȗ"/>
+					<when state="tildeBelowAccent" output="Ṵ"/>
+					<when state="circumflexBelowAccent" output="Ṷ"/>
+					<when state="miscLevel" output="Ʊ"/>
+					<when state="glottalStopAccent" output="Ʋ"/>
+				</action> 
+			</key>
 			<key code="5" output="I"/>
 			<key code="4" output="D"/>
 			<key code="38" output="H"/>
