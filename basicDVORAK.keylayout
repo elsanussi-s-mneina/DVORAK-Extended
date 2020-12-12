@@ -29,7 +29,7 @@ For more information, please refer to <http://unlicense.org>
 
 -->
 
-<keyboard group="126" id="-878" name="basicDVORAKv0.82">
+<keyboard group="126" id="-893" name="DVORAK-extendedv0.01">
 	<layouts>
 		<layout first="0" last="0" modifiers="commonModifiers" mapSet="mapSet"/>
 	</layouts>
