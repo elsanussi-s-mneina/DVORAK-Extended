@@ -29,7 +29,7 @@ For more information, please refer to <http://unlicense.org>
 
 -->
 
-<keyboard group="126" id="-693" name="DVORAK-extendedv0.05">
+<keyboard group="126" id="-693" name="DVORAK-extendedv0.06">
 	<layouts>
 		<layout first="0" last="0" modifiers="commonModifiers" mapSet="mapSet"/>
 	</layouts>
@@ -71,7 +71,15 @@ For more information, please refer to <http://unlicense.org>
 			<key code="12" output="&#39;"/> <!-- Single quote -->
 			<key code="13" output=","/>
 			<key code="14" output="."/>
-			<key code="15" output="p"/>
+			<key code="15">
+				<action>
+					<when state="none" output="p"/>
+					<when state="dotAboveAccent" output="ṗ"/>
+					<when state="acuteAccent" output="ṕ"/>   
+					<when state="glottalStopAccent" output="ƥ"/>
+				</action>
+			</key>
+
 			<key code="17" output="y"/>
 			<key code="16" output="f"/>
 			<key code="32" output="g"/>
@@ -267,7 +275,16 @@ For more information, please refer to <http://unlicense.org>
 			<key code="12" output="&#34;"/> <!-- the output is the double quote -->
 			<key code="13" output="&#60;"/> <!-- the output is the less than sign -->
 			<key code="14" output="&#62;"/> <!-- the output is the greater than sign -->
-			<key code="15" output="P"/>
+			<key code="15">
+				<action>
+					<when state="none" output="P"/>
+					<when state="dotAboveAccent" output="Ṗ"/>
+					<when state="acuteAccent" output="Ṕ"/>   
+					<when state="glottalStopAccent" output="Ƥ"/>
+				</action>
+			</key>
+
+
 			<key code="17" output="Y"/>
 			<key code="16" output="F"/>
 			<key code="32" output="G"/>
