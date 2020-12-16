@@ -1035,86 +1035,126 @@ For more information, please refer to <http://unlicense.org>
 		<keyMap index="4">
 			<!-- Number row above
 
-1 ¡
-2 ™
-3 £
-4 ¢
-5 §
-7 ¶
-8 •
-9 ª
-0 º
-- –
-= ≠
- -->
+			1 ¡
+			2 ™
+			3 £
+			4 ¢
+			5 §
+			7 ¶
+			8 •
+			9 ª
+			0 º
+			- –
+			= ≠ DONE
+			-->
 			<key code="50" action="grave"/>
-
-
-
+			<key code="18" output="¡"/>
+			<key code="19" output="™"/>
+			<key code="20" output="£"/>
+			<key code="21" output="¢"/>
+			<key code="23" output="§"/>
 			<key code="22" action="circumflex"/>
+			<key code="26" output="¶"/>
+			<key code="28" output="•"/>
+			<key code="25" output="ª"/>
+			<key code="29" output="º"/>
+
+			<key code="27" output="“"/>
+			<key code="24" output="‘"/>
+
+
+			<key code="34" action="cedilla"/>
+
+
 
 			<!-- Top row above-->
 			<!-- 
-q œ
-r ®
-t þ
-y ¥
-o ø
-[ “
-] ‘
-\ «
+			q œ  DONE
+			r ®  DONE
+			t þ DONE
+			y ¥  DONE
+			o ø  DONE
+
+			[ “ DONE
+			] ‘ DONE
+			\ «  DONE
 
 			-->
+			<key code="12" output="æ"/>
+			<key code="13" output="≤"/>
+			<key code="14" output="≥"/>
 
-			<key code="13" action="dotAbove"/>
-			<key code="2" action="acute"/>
-			<key code="3" action="diaeresis"/>
-			<key code="34" action="apostrophe"/>
-			<key code="35" action="comma"/>
-<!-- 
-			<key code="33" action="99"/>
-			<key code="30" action="98"/>
--->
+			<key code="1" output="ø"/>
+
+			<key code="17" output="¥"/>
+
+			<key code="15" action="comma"/>
+			<key code="16" output="ƒ"/>
+			<key code="32" output="©"/>
+			<key code="31" output="®"/>
+
+
+			<key code="35" action="stroke"/>
+			<key code="33" output="÷"/>
+			<key code="30" output="≠"/>
+			<key code="42" output="«"/>
+
+
+
 
 			<!-- Middle row
 
-s ß
-d ð
-f ƒ
-g ©
-; …
-' æ
-, ≤
-. ≥
-/ ÷
- -->
+			s ß   DONE
+			d ð   DONE
+			f ƒ   DONE
+			g ©   DONE
+			; …   DONE
+			' æ   DONE
+			, ≤   DONE
+			. ≥   DONE
+			/ ÷   DONE
+			-->
 			<key code="0" action="macron"/>
-			<key code="4" action="lowMacron"/>
-			<key code="38" action="doubleAcute"/>
-			<key code="40" action="ring"/>
-			<key code="37" action="stroke"/>
-			<key code="39" output="æ"/>
+			<key code="2" action="acute"/>
+			<key code="3" action="diaeresis"/>
+			<key code="5" action="apostrophe"/>
+			<key code="4" output="ð"/>
+
+
+
+			<key code="38" action="lowMacron"/>
+			<key code="40" output="þ"/>
+
+			<key code="37" action="tilde"/>
+			<key code="41" output="ß"/>
+
+			<key code="39" output="–"/>
+
 			<!-- Row above space bar -->
-			<key code="6" action="hook"/>
-			<key code="7" action="dotBelow"/>
-			<key code="8" action="cedilla"/>
-			<key code="9" action="caron"/>
-			<key code="11" action="breve"/>
-			<key code="45" action="tilde"/>
+			<key code="6" output="…"/>
+			<key code="7" output="œ"/>
+			<key code="8" action="doubleAcute"/>
+			<key code="9" action="ring"/>
+
+			<key code="44" action="hook"/>
+			<key code="11" action="dotBelow"/>
+			<key code="45" action="breve"/>
+			<key code="43" action="dotAbove"/>
+			<key code="47" action="caron"/>
 			<key code="46" action="ogonek"/>
 		</keyMap>
 		<keyMap index="5">
 			<!-- Tab row -->
-			<key code="16" action="doubleGrave"/>
-
+			<key code="14" action="glottalStop"/>
+			<key code="17" action="doubleGrave"/>
+			<key code="16" action="tildeBelow"/>
+			<key code="32" action="circumflexBelow"/>
+ 
 			<!-- Caps lock row -->
-			<key code="1" action="invertedBreve"/>
-			<key code="3" action="tildeBelow"/>
-			<key code="5" action="circumflexBelow"/>
-			<key code="41" action="misc"/>
+			<key code="41" action="invertedBreve"/>
 
 			<!-- Shift row -->
-			<key code="47" action="glottalStop"/>
+			<key code="6" action="misc"/>
 
 		</keyMap>
 	</keyMapSet>
