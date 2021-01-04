@@ -346,6 +346,7 @@ For more information, please refer to <http://unlicense.org>
 					<when state="dotAboveAccent" output="ḣ"/>
 					<when state="diaeresisAccent" output="ḧ"/>
 					<when state="lowMacronAccent" output="ẖ"/>
+					<when state="strokeAccent" output="ħ"/>
 					<when state="dotBelowAccent" output="ḥ"/>
 					<when state="cedillaAccent" output="ḩ"/>
 					<when state="caronAccent" output="ȟ"/>
@@ -787,6 +788,7 @@ For more information, please refer to <http://unlicense.org>
 					<when state="dotAboveAccent" output="Ḣ"/>
 					<when state="diaeresisAccent" output="Ḧ"/>
 					<when state="lowMacronAccent" output="H̱"/>
+					<when state="strokeAccent" output="Ħ"/>
 					<when state="dotBelowAccent" output="Ḥ"/>
 					<when state="cedillaAccent" output="Ḩ"/>
 					<when state="caronAccent" output="Ȟ"/>
