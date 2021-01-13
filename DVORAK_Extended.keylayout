@@ -30,7 +30,7 @@ For more information, please refer to <http://unlicense.org>
 -->
 
 <keyboard group="126" id="-693" name="Dvorak - Extended">
-	<!-- Version v0.11 -->
+	<!-- Version v0.12 -->
 	<layouts>
 		<layout first="0" last="0" modifiers="commonModifiers" mapSet="mapSet"/>
 	</layouts>
@@ -971,6 +971,14 @@ For more information, please refer to <http://unlicense.org>
 		<!-- Fourth row from top, from left to right -->
 			<key code="6" output=";"/>
 
+
+			<!-- We need to define the enter key and space bar here again it seems because it is not defined in the base keyMap. Even though it is defined in the base keyMap's base keymap.-->
+			<!-- Enter key -->
+			<key code="36" output="&#x000D;"/>
+			
+
+			<!-- Space bar -->
+			<key code="49" output=" "/>
 		</keyMap>
 		<keyMap index="3">
 			<!-- This keymap supports proper function of the tab key, the arrow keys, and other important control keys. -->
@@ -1035,6 +1043,7 @@ For more information, please refer to <http://unlicense.org>
 			<key code="124" output="&#x001D;"/>
 		</keyMap>
 		<keyMap index="4">
+			<!-- Defines what happens when a key is pressed while option is held down.-->
 			<!-- Number row above
 
 			1 ¡
@@ -1144,8 +1153,13 @@ For more information, please refer to <http://unlicense.org>
 			<key code="43" action="dotAbove"/>
 			<key code="47" action="caron"/>
 			<key code="46" action="ogonek"/>
+
+			<!-- Space bar -->
+			<key code="49" output=" "/>
 		</keyMap>
 		<keyMap index="5">
+			<!-- Defines what happens when a key is pressed while option and shift are held down.-->
+
 			<!-- Tab row -->
 			<key code="14" action="glottalStop"/>
 			<key code="17" action="doubleGrave"/>
@@ -1158,6 +1172,8 @@ For more information, please refer to <http://unlicense.org>
 			<!-- Shift row -->
 			<key code="6" action="misc"/>
 
+			<!-- Space bar -->
+			<key code="49" output=" "/>
 		</keyMap>
 	</keyMapSet>
 	<actions>

@@ -3,3 +3,8 @@ Apparently if some keys are not set to a value (such as the arrow key) they will
 
 2020-11-26, version 0.82
 Add support for caps lock. Enter key works properly again.
+
+2021-01-13, version 0.12
+Make space, and enter keys work when caps lock is pressed.
+Make space key work when option key is held down by itself.
+Make space key work when option key is held down with the shift key.
