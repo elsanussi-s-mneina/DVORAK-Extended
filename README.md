@@ -11,7 +11,7 @@ https://developer.apple.com/library/archive/technotes/tn2056/_index.html
 ### Implemented:
 - lowercase letters
 - shift key implemented
-
+- number pad
 ### Not Implemented Yet:
 - a few keys in the Shift option plane
 

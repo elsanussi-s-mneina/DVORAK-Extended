@@ -8,3 +8,6 @@ Add support for caps lock. Enter key works properly again.
 Make space, and enter keys work when caps lock is pressed.
 Make space key work when option key is held down by itself.
 Make space key work when option key is held down with the shift key.
+
+2021-01-13, version 0.13
+Make all keys on numberpad work.
