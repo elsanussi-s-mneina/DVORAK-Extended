@@ -11,3 +11,6 @@ Make space key work when option key is held down with the shift key.
 
 2021-01-13, version 0.13
 Make all keys on numberpad work.
+
+2021-01-15, version 0.14
+Implemented stroke accent dead key, needed for latin letters with stroke such as U+0127.

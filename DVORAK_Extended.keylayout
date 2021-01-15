@@ -30,7 +30,7 @@ For more information, please refer to <http://unlicense.org>
 -->
 
 <keyboard group="126" id="-693" name="Dvorak - Extended">
-	<!-- Version v0.13 -->
+	<!-- Version v0.14 -->
 	<layouts>
 		<layout first="0" last="0" modifiers="commonModifiers" mapSet="mapSet"/>
 	</layouts>
@@ -1220,7 +1220,7 @@ For more information, please refer to <http://unlicense.org>
 			<key code="37" action="tilde"/>
 			<key code="41" output="ß"/>
 
-			<key code="39" output="–"/>
+			<key code="39" action="stroke"/>
 
 			<!-- Row above space bar -->
 			<key code="6" output="…"/>
