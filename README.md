@@ -1,4 +1,4 @@
-# DVORAK Keyboard Layout Template
+# DVORAK Extended Keyboard Layout
  Trying to make a DVORAK Keyboard layout for Mac OS Catalina using XML, and no keyboard editor. This is the Extended Dvorak keyboard layout. That is it is the Dvorak version of the "ABC - Extended" layout which came with the Mac. There was no "Dvorak - Extended" layout available on the Mac operating system, so I decided to make one.
  
 Background: The ABC Extended keyboard layout is a keyboard layout for writing many Latin characters with various diacritics. It does this by having many deadkeys available when pressing option.
